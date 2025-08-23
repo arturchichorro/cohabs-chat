@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+    --color-cohabs-brown: #e3c8aa;
+    --color-cohabs-dark-brown: #c9ad8b;
+    --color-cohabs-muted-gray: #ededed;
+    --color-cohabs-gray: #818080;
+}
