@@ -1,0 +1,226 @@
+[
+    {   
+        "question": "With how many people will I share my bathroom?",
+        "answer": "If you opt for a room with no private bathroom, you will share it with two other members maximum and have your own storage space for your hygiene products. The bathroom will be cleaned by our cleaning team every week."
+    },
+    {   
+        "question": "What is the minimum length of stay at Cohabs?",
+        "answer": "Normally, we have a 6-month lease minimum across all our cities to ensure each member has enough time to build connections and settle within the Cohabs community. Please reach out to our Community team or contact us via the Lobby if you have any questions."
+    },
+    {   
+        "question": "Why are there no locks on the individual bedrooms in the NY homes?",
+        "answer": "It is a measure imposed by the [New York Housing Department](https://www.nyc.gov/site/nycha/index.page) policy that prevents residential properties, like Cohabs, from installing bedroom door locks for fire safety purposes. However, as explained in our golden rules, we provide safe and secure common spaces through trust and mutual respect of our community. These elements are key and part of our community's success."
+    },
+    {   
+        "question": "How many people are living in each house?",
+        "answer": "Depending on the size of each Cohabs house, we have anywhere from 3 to 24 rooms. You can find more information on our houses page."
+    },
+    {   
+        "question": "What are the sizes of the rooms?",
+        "answer": "The size of the room depends on the room type. Our private rooms are about 14 m²/ 150 sq. The other rooms vary from about 7 m²/80 sq for the smallest and about 30 m²/325 sq for the largest. You can see the exact size of the private rooms in the virtual tour after applying online."
+    },
+    {   
+        "question": "Is there a private toilet in my room?",
+        "answer": "The Cohabs houses have a range of different room setups depending on the room you are interested in. For more information, take a look at our virtual tour or check with our Community Manager during your call."
+    },
+    {
+        "question": "What services are included in my monthly rent?",
+        "answer": "Your rent includes: monthly breakfast delivery, common supplies (toilet paper, coffee, cleaning supplies), weekly cleaning of common areas, on-call maintenance, fully-furnished home with WiFi/Netflix, all utilities covered, mobile app for inquiries and unlocking doors, and a welcome bag on move-in."
+    },
+    {
+        "question": "What is included in my bedroom?",
+        "answer": "Our rooms are fully furnished and equipped with everything you need, except for a blanket, sheets, and a pillow, so be sure to bring your own. In Paris, a blanket is provided. If you prefer to travel light, you can subscribe to our Bedding Pack through the Cohabs app before moving in, and we'll handle it for you."
+    },
+    {
+        "question": "Can I receive mail at the Cohabs house?",
+        "answer": "Yes, of course. You just have to send your mail to your Cohabs address. You can also write your name on the board near the front door."
+    },
+    {
+        "question": "How do I reserve a spot?",
+        "answer": "Your room is secured once you complete the steps in the Lobby: call the Community Manager, submit the required documents, secure your room through the prebooking or booking page, sign the lease, pay the deposit and first month's rent, and finally pay the application fee."
+    },
+    {
+        "question": "Can I cancel my contract prior to the move-in?",
+        "answer": "You have the possibility to cancel your stay 15 days after the signature of your lease. It is not possible to cancel after your move-in date even if it is before the 15 days notice. Beyond this deadline, we will be obliged to charge you a cancellation fee equivalent to 2 months' rent."
+    },
+    {
+        "question": "Can I terminate my lease before the end date?",
+        "answer": "You can request to terminate your lease via the Cohabs app and send us an email. This is completely subject to our lease terms, but we try to be as flexible as possible."
+    },
+    {
+        "question": "How do I deal with any issues during my stay?",
+        "answer": "Every member gets access to our dedicated Cohabs app. Within the application, you will be able to report an incident or add a wish for your house."
+    },
+    {
+        "question": "Can I make changes to my bedroom?",
+        "answer": "You can do pretty much what you want in your room as long as you do not damage the walls, floors, or other surfaces and return your bedroom to the state in which you found it."
+    },
+    {
+        "question": "May I register my Cohabs address as my legal residency?",
+        "answer": "Yes, we encourage members to officially establish themselves at the beginning of their stay. You will find more information about this in the Cohabs app."
+    },
+    {
+        "question": "Is there a laundry room?",
+        "answer": "Yes, every house has a laundry room with washing machines and dryers. The number of laundry appliances depends on the number of housemates. And yes, the use of the laundry room is included in your lease, no extra cost."
+    },
+    {
+        "question": "Why are there no addresses on the website?",
+        "answer": "For the security of our members and neighbors, we prefer not to reveal the exact address of our houses. However, you can check the approximate location on the house page. Don't worry, we will send you the address when you receive the link to your virtual tour."
+    },
+    {
+        "question": "Is there a curfew?",
+        "answer": "We don't impose any strict curfew on our homes, but we count on our members to respect the tenants and neighbors. We have a quiet hours policy starting at 10 pm during the week and 10:30 pm on weekend nights."
+    },
+    {
+        "question": "Is there parking?",
+        "answer": "Our houses almost always have ample storage space for bicycles. As we promote alternative mobility, we rarely have parking for cars but there are many public or private parking garages near our houses."
+    },
+    {
+        "question": "Are pets allowed?",
+        "answer": "Even though we love animals, pets are not allowed due to hygienic reasons and for our members who may be allergic."
+    },
+    {
+        "question": "Can children stay at Cohabs?",
+        "answer": "No, we unfortunately do not admit children in our homes."
+    },
+    {
+        "question": "Can couples stay at Cohabs?",
+        "answer": "Depending on the house and room type, two people can stay in one room at Cohabs. However, there is a limited amount of options for couples."
+    },
+    {
+        "question": "Can I smoke in a Cohabs house?",
+        "answer": "No, our houses are smoke-free."
+    },
+    {
+        "question": "Is it possible to move from one house to another?",
+        "answer": "Yes, as long as there is a free room. In addition, you have priority over people not yet in the Cohabs network. You can apply for a new room directly through the Cohabs app."
+    },
+    {
+        "question": "What kind of security does Cohabs have?",
+        "answer": "Most of the Cohabs houses in Belgium are equipped with [Salto Smart-lock security systems](https://saltosystems.com/en/). On top of that, we also use a [Ring security system](https://ring.com/eu/en/) to keep the main entrance safe. You will have the ability to unlock/lock your room via the Cohabs app. For privacy reasons, we do not access or transfer data, unless you give us your explicit permission (for example, if we ever have to track suspicious activity around the house)."
+    },
+    {
+        "question": "What are the different bedroom types?",
+        "answer": "Our standard bedrooms have a queen-sized bed (140x200), a desk with chair, a bedside table with lamp, a custom-built closet, and private storage. We have a diverse range of bedroom types including Essential (shared bathroom), Essential+ (private sink and shared bathroom), Classic (private bathroom with sink and shower), Classic+ (private bathroom with sink, shower, and toilet), Affinity (for couples with private bathroom including sink, shower, and toilet), Affinity+ (for couples with an extra bed and private bathroom including sink, shower, and toilet), and Solidarity (reduced rent price)."
+    },
+    {
+        "question": "What is the Cohabs app?",
+        "answer": "The Cohabs app is designed to accompany you throughout your stay, and make things as flexible and simple as possible. From day one, the app will help transition into community life and allow you to access all the necessary services and information during your stay. You can use it to plan your move-in and move-out, check your rent balance, RSVP to Cohabs events, access smart home technology, submit and track maintenance requests, and access important house information. The app is downloadable from the [Apple App Store](https://apps.apple.com/gb/app/cohabs/id1444884817) and the [Android Play Store](https://play.google.com/store/apps/details?id=com.cohabs.app)."
+    },
+    {
+        "question": "What do you do for Cohabs neighbors?",
+        "answer": "We make sure our members understand the importance of being respectful and considerate of their neighbors from day one. Our community follows all rules and quiet hours set by the neighborhoods and cities our homes are located in. [Read more about Neighborhood support here](https://cohabs.com/neighborhood-support)!"
+    },
+    {
+        "question": "Do you provide extra services?",
+        "answer": "In addition to the accommodation provided, every member has access to a monthly subscription that handles extra benefits like a bedding pack. These services are not included in the monthly rent. You can subscribe to extra services by purchasing packs in the Cohabs app. After that, we will take care of everything."
+    },
+    {
+        "question": "What common areas are included in the house?",
+        "answer": "Every house has its own designed shared spaces. You'll always find a fully-equipped kitchen, a living room, and a laundry room. Most of our houses also have a garden or terrace, a gym, a cinema room and, with a bit of luck, sometimes a poker room or sauna!"
+    },
+    {
+        "question": "How do I know that a room is available for my stay?",
+        "answer": "Our availability depends on our occupancy rate, but also on the type of room you are looking for, the neighborhood, and other preferences. We have many houses under renovation, so we have a large number of rooms that are opening very soon. After your call with one of our Community Managers, we will send you our availability based on the type of room you're looking for. If you want to secure your room, don't dawdle! It's 'first come, first serve' at Cohabs."
+    },
+    {
+        "question": "How sustainable is coliving?",
+        "answer": "As the world moves towards a carbon-neutral future, sustainability is the core of what we do. Among other things, a large majority of our houses have solar panels, sustainable appliances, and a rainwater harvesting system. Most of our furniture is bought on the second-hand market, giving them a second life. We have a strong focus on energy cost reduction, thanks to dedicated tools in every home. [Read more here](https://cohabs.com/impact)!"
+    },
+    {
+        "question": "What is coliving? Who is it for?",
+        "answer": "Coliving is a form of housing where residents share a living space as well as a set of interests, values, and intentions. Coliving is sustainable and promotes openness and collaboration, social networking, and the sharing economy. Located in cities across the world, Cohabs offers a range of beautiful places that feel just like home. Our houses are composed of private bedrooms and fully furnished shared common spaces. Anyone can apply!"
+    },
+    {
+        "question": "Who makes up the Cohabs community?",
+        "answer": "Our members are usually between 21 and 35 years old and come from all around the world, from the Northern lights of Finland to the sunny beaches of Australia. They are curious and open-minded, looking for opportunities to connect and learn new things. Most of them are already professionally active and have extremely diverse career backgrounds (health, consulting, finance, digital …) or are actively pursuing higher education and internships. Our community values are: be open, keep learning, think green, stay foolish, lend a hand, and be respectful. [You can discover more on our Community page](https://cohabs.com/community)."
+    },
+    {
+        "question": "What kinds of events are organized at Cohabs?",
+        "answer": "Every month, a great variety of events are organized for or by members - yoga classes, the Cohabs Retreat, workshops, after-work drinks, or simply a pleasant dinner. Every month, we deliver breakfast to every home to make sure our members can spend some time together."
+    },
+    {
+        "question": "What's a Cohabs Ambassador?",
+        "answer": "A Cohabs Ambassador is a peer-elected member who wants to be more involved in the community and is in charge of welcoming new housemates and giving our team feedback about their experience! Each house has at least one ambassador and they are all part of an amazing community. They participate in ambassador events and have first access to certain events and a first look at upcoming projects + initiatives."
+    },
+    {
+        "question": "What does the membership fee cover?",
+        "answer": "This is a one-time fee that you pay to grant you access to a range of global community benefits, including but not limited to: access to a global community mobile application, special discounts with partners, global events, flexibility to move between different hubs etc. As a member, you will also enjoy preferential rental prices. The fee never needs to be paid again, so long as you remain a Member of Cohabs continuously and without interruption in your tenancy."
+    },
+    {
+        "question": "Can I invite a friend to stay with me?",
+        "answer": "Yes, for a period of about 7 days per month and as long as your housemates agree with it. Use your discretion - we like to be flexible, but guests cannot pose a disturbance to your other housemates. If they are cool with it, we are. Once in a house, the Ambassador will be your reference person."
+    },
+    {
+        "question": "Is Cohabs eligible for CAF/APL?",
+        "answer": "Yes. All the Cohabs houses in Paris are eligible for CAF. Find all the information and create your application on the [CAF website](https://www.caf.fr/allocataires/aides-et-demarches/droits-et-prestations/logement/les-aides-personnelles-au-logement)."
+    },
+    {
+        "question": "How do I renew my lease?",
+        "answer": "To renew a contract, our members have a 2-month notice period to renew their existing lease. After that period, their room becomes available again."
+    },
+    {
+        "question": "What are the payment methods?",
+        "answer": "You can either make a wire transfer or use direct debit payment options."
+    },
+    {
+        "question": "Is there a membership fee?",
+        "answer": "Yes. After signing the lease, you are required to pay the deposit, your first month's rent, and a one-time membership fee. The membership fee amount differs from city to city. After this is taken care of, your room is booked and you're part of the Cohabs community!"
+    },
+    {
+        "question": "How much is the deposit?",
+        "answer": "On top of the monthly rent, we ask for a 1 or 2-month deposit which we return to you once you move out."
+    },
+    {
+        "question": "If I apply on the website do I have to pay immediately?",
+        "answer": "No. After you submit an application and your preferences, you'll gain access to the lobby where you can chat with our Community team, check room proposals, and complete your booking."
+    },
+    {
+        "question": "How do I upload documents?",
+        "answer": "In the Lobby, you can upload the necessary documents to save time and secure your room faster. This step is mandatory for signing your lease."
+    },
+    {
+        "question": "What types of documents are requested?",
+        "answer": "During the application process, we will ask you to upload the required documents to conduct the background check. These may include but are not limited to: government ID, bank statements, employment/student status, tax returns, personal guarantors, etc. After the reception of these documents, we will review them and respond within 24 hours. Once approved, you will receive an agreement to sign electronically (super easy), and an online invoice to pay upfront. After signing and payments, you will officially be a Cohabs member!"
+    },
+    {
+        "question": "How do I access the Lobby?",
+        "answer": "Once you have filled out and submitted an application, you will receive a link via email to access your personal Lobby."
+    },
+    {
+        "question": "What is the Lobby and how do I use it?",
+        "answer": "The Lobby is your personal space to complete your booking and become a Cohabs member. You can use it to book a call with a Community member, upload documents, browse room proposals, sign a digital lease, and update your user profile."
+    },
+    {
+        "question": "How to be sure my room is booked? At what moment is my room reserved?",
+        "answer": "Your room is not booked until you have gone through all the steps in the Lobby, signed a digital lease with Cohabs, and submitted your deposit."
+    },
+    {
+        "question": "How long do I have to reserve a bedroom from the proposals sent to me?",
+        "answer": "We do our best to send you houses that are the best fit for your personality and preferences. However, these options maybe also be sent to another member so act fast."
+    },
+    {
+        "question": "Can I visit the house before signing a lease?",
+        "answer": "If it's a prebooking, we can invite you for a tour before you sign your lease. Otherwise, you cannot visit before joining the house, but thanks to our virtual tours you will be able to discover all the common spaces of the house. We have a virtual house tour with pictures and a video tour. The video will give you a very good overview of all the rooms in the house. And if you have specific questions, our Community Manager will be happy to answer them for you."
+    },
+    {
+        "question": "Can I cancel or reschedule my call?",
+        "answer": "Of course! Feel free to do so in the Lobby."
+    },
+    {
+        "question": "Why do I need to have a call before booking my room?",
+        "answer": "The community aspect is a huge part of the Cohabs experience, and we prioritize how each and every member will fit into the house they join. With this in mind, the call helps us ensure we find you the best house for your preferences and personality, and that your time at Cohabs will be the best possible."
+    },
+    {
+        "question": "How long does the application process take?",
+        "answer": "The application process is easy. You just have to complete the application form and book your call with our community manager. It takes a little more than 3 minutes. It is possible that you will have to wait a few days before having your call. Then you will have the background check and virtual tour, but all that happens on your end. You can complete it while chilling comfortably on your couch, at your own pace."
+    },
+    {
+        "question": "How do I book a room?",
+        "answer": "We are glad that you are interested in joining our community! The first step is to apply online to verify our room availability. If we have a room available at your desired date, you'll be able to book a quick call with our Community Manager to help you find the best fit within our network. After arranging details about your stay (location, room type preference, etc.) we will ask you to send us the required documents in order to verify your identity and solvency. Then you can visit your house (virtually or in real life after a prebooking) and sign your lease online. After you pay the deposit, first month's rent, and the application fee, your room is officially booked!"
+    },
+    {
+        "question": "How much does a room cost?",
+        "answer": "Our coliving spaces are all-inclusive, meaning that the price you see is the price you pay. The pricing per room depends on the city you want to live in and your personal preferences. [Learn more here](https://cohabs.com/pricing)."
+    }
+]
