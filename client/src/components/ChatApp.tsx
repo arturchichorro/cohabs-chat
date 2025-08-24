@@ -21,7 +21,7 @@ const ChatApp = () => {
 
         const botMessage: Message = {
             id: Date.now() + 1,
-            text: "Thank you for contacting our customer service.",
+            text: "It is a measure imposed by the [New York Housing Department](https://www1.nyc.gov/site/hpd/index.page) policy that prevents residential properties, like Cohabs, from installing bedroom door locks for fire safety purposes. However, as explained in our golden rules, we provide safe and secure common spaces through trust and mutual respect of our community. For more information, please visit our [FAQ page](https://cohabs.com/faq).",
             isUser: false,
             timestamp: new Date()
         };
@@ -31,7 +31,7 @@ const ChatApp = () => {
     };
 
     return (
-        <div className='flex flex-col h-screen'>
+        <div className='flex flex-col bg-cohabs-muted-sand rounded-4xl w-full max-w-full h-screen sm:max-h-[80%] sm:h-full sm:max-w-2xl'>
             <ChatHeader />
             <Messages messages={messages}/>
             <ChatInput 
