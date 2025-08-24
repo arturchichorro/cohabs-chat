@@ -18,7 +18,7 @@ app.post("/query", async (req, res) => {
     try {
         const { query } = req.body;
         const result = await handleQuery(query);
-        res.status(200).json(result);
+        res.status(200).json({ answer: result });
     } catch (error) {
         console.log(error);
         res.status(500).json({

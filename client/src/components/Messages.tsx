@@ -2,12 +2,14 @@ import type { Message } from "../types/message"
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from "remark-gfm";
 import { useEffect, useRef } from 'react';
+import { LoaderCircle } from "lucide-react";
 
 type MessageListProps = {
     messages: Message[];
-}
+    isThinking?: boolean;
+};
 
-const Messages = ({ messages }: MessageListProps) => {
+const Messages = ({ messages, isThinking }: MessageListProps) => {
     const messagesEndRef = useRef<HTMLDivElement>(null);
 
     const scrollToBottom = () => {
@@ -63,6 +65,13 @@ const Messages = ({ messages }: MessageListProps) => {
                     </div>
                 </div>
             ))}
+            {isThinking && (
+                <div className="flex justify-start">
+                    <div className="p-3 bg-cohabs-muted-gray rounded-full">
+                    <LoaderCircle className="animate-spin text-cohabs-dark-blue w-5 h-5" />
+                    </div>
+                </div>
+            )}
             <div ref={messagesEndRef} />
         </div>
     )
