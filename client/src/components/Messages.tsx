@@ -44,7 +44,7 @@ const Messages = ({ messages }: MessageListProps) => {
                                     a: ({ ...props }) => (
                                         <a
                                             {...props}
-                                            className="text-blue-600 hover:text-blue-800 underline decoration-1 underline-offset-2"
+                                            className="text-cohabs-dark-blue hover:text-cohabs-gray underline decoration-1 underline-offset-2"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         />
