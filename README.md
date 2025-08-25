@@ -37,3 +37,7 @@ This will:
 - Start the client on [http://localhost:5173](http://localhost:3035)
 
 Open the client and chat with the bot.
+
+## Preview
+
+![Preview of the app](https://imgur.com/a/TRMlXmD)
