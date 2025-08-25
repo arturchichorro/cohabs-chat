@@ -51,6 +51,13 @@ const Messages = ({ messages, isThinking }: MessageListProps) => {
                                             rel="noopener noreferrer"
                                         />
                                     ),
+                                    ul: ({ ...props }) => (
+                                        <ul className="list-disc pl-4" {...props} />
+                                    ),
+                                    ol: ({ ...props }) => (
+                                        <ol className="list-decimal pl-4" {...props} />
+                                    ),
+                                    li: ({ ...props }) => <li className="ml-1" {...props} />,
                                 }}
                             >
                                 {message.text}
@@ -68,7 +75,7 @@ const Messages = ({ messages, isThinking }: MessageListProps) => {
             {isThinking && (
                 <div className="flex justify-start">
                     <div className="p-3 bg-cohabs-muted-gray rounded-full">
-                    <LoaderCircle className="animate-spin text-cohabs-dark-blue w-5 h-5" />
+                        <LoaderCircle className="animate-spin text-cohabs-dark-blue w-5 h-5" />
                     </div>
                 </div>
             )}

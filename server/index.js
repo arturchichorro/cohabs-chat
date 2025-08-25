@@ -16,8 +16,8 @@ const supabase = createClient(
 
 app.post("/query", async (req, res) => {
     try {
-        const { query } = req.body;
-        const result = await handleQuery(query);
+        const { query, history = [] } = req.body;
+        const result = await handleQuery(query, history);
         res.status(200).json({ answer: result });
     } catch (error) {
         console.log(error);
@@ -27,7 +27,7 @@ app.post("/query", async (req, res) => {
     }
 });
 
-async function handleQuery(query) {
+async function handleQuery(query, history) {
     const input = query.replace(/\n/g, " ");
 
     const embeddingResponse = await openai.embeddings.create({
@@ -50,22 +50,31 @@ async function handleQuery(query) {
         .map((document) => `${document.content.trim()}---\n`)
         .join("");
 
+    const systemMessage = {
+        role: "system",
+        content: `You are Cohabs FAQ Assistant, a friendly and professional customer service bot.
+        - Answer questions **only** using the information provided in the Context section. If the conversation... Take previous messages into account when interpreting the question.
+        - If the question is unrelated to Cohabs, don't mention "context" or that you cannot help; instead, politely guide the user back to Cohabs-related topics.
+        - If you believe the question might be related to Cohabs but you don't have an answer in the context, respond with EXACTLY: "[[FALLBACK]]".
+        - Do not guess, invent information, or use outside knowledge.
+        - Always format answers in **markdown** for readability.
+        - If the Context contains a link, include it as a clickable markdown link (e.g., [Link text](https://example.com)).
+        - Keep answers **clear, concise, and professional**, while sounding warm and conversational.
+        - If the user greets you (e.g., "Hello", "Hi"), respond politely with a short greeting and say who you are.
+        - If the user asks something unrelated to Cohabs, gently redirect by saying something like:
+        "I'm here to help with Cohabs information such as booking, amenities, or pricing. What would you like to know about Cohabs?"
+        - If multiple points are provided in the Context, present them as a bulleted or numbered list for clarity.
+        Remember: Stay on Cohabs, be helpful, and keep the tone warm and supportive.`
+    }
+
+    const historyMessages = history.map(m => ({
+        role: m.isUser ? "user" : "assistant",
+        content: m.text
+    }));
+
     const messages = [
-        {
-            role: "system",
-            content: `You are Cohabs FAQ Assistant, a friendly and professional customer service bot.
-            - Answer questions **only** using the information provided in the Context section.
-            - Never mention "context" or that you cannot help; instead, politely guide the user back to Cohabs-related topics.
-            - Do not guess, invent information, or use outside knowledge.
-            - Always format answers in **markdown** for readability.
-            - If the Context contains a link, include it as a clickable markdown link (e.g., [Link text](https://example.com)).
-            - Keep answers **clear, concise, and professional**, while sounding warm and conversational.
-            - If the user greets you (e.g., "Hello", "Hi"), respond politely with a short greeting and say who you are.
-            - If the user asks something unrelated to Cohabs, gently redirect by saying something like:
-            "I'm here to help with Cohabs information such as booking, amenities, or pricing. What would you like to know about Cohabs?"
-            - If multiple points are provided in the Context, present them as a bulleted or numbered list for clarity.
-            Remember: Stay on Cohabs, be helpful, and keep the tone warm and supportive.`
-        },
+        systemMessage,
+        ...historyMessages,
         {
             role: "user",
             content: `Context: "${contextText}" Question: "${query}" Answer:`,
@@ -79,7 +88,17 @@ async function handleQuery(query) {
         verbosity: "low",
     });
 
-    return completion.choices[0].message.content;
+    const response = completion.choices[0].message.content;
+
+    if (response.startsWith("[[FALLBACK]]")) {
+        console.log("Mock Slack Notification: ")
+        console.log(`Couldn't solve issue: ${query}.`);
+        console.log(`Context Preview: ${contextText}`);
+
+        return ("We couldn't find an answer in our docs just now. I've notified our team to follow up. If you have more details, feel free to share and I'll try again. 🙏");
+    }
+
+    return response;
 }
 
 app.listen('3035', () => {

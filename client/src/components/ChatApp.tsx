@@ -26,10 +26,15 @@ const ChatApp = () => {
         setIsThinking(true);
 
         try {
+
+            console.log(messages)
             const res = await fetch("http://localhost:3035/query", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ query: prompt }),
+                body: JSON.stringify({ 
+                    query: prompt,
+                    history: messages,
+                }),
             });
 
             if (!res.ok) throw new Error(`Server responded ${res.status}`);
