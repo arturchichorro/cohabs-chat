@@ -40,4 +40,4 @@ Open the client and chat with the bot.
 
 ## Preview
 
-![Preview of the app](https://imgur.com/a/TRMlXmD)
+![Preview of the app](https://i.imgur.com/89nNCD8.png)
