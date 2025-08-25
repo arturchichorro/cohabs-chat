@@ -21,6 +21,10 @@ It combines a simple **FAQ JSON knowledge base** with **Retrieval Augmented Gene
    - It will not invent answers outside of the knowledge base.  
    - Responses remain factual, consistent, and within the customer service scope.  
 
+#### Notes
+
+The code includes a script to generate and store the embeddings for RAG. It is meant to be ran once to populate a Supabase database.
+
 ## Setup
 
 In order to run the code, start by cloning the repository. Then, in the root directory, create a .env file, similar to .env.example. Insert the required environment variables.
