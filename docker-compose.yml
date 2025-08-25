@@ -1,0 +1,15 @@
+services:
+  server:
+    build: ./server
+    env_file: .env
+    environment:
+      - PORT=3035
+    ports:
+      - "3035:3035"
+
+  client:
+    build: ./client
+    ports:
+      - "5173:5173"
+    depends_on:
+      - server
